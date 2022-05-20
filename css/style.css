@@ -14,3 +14,6 @@
 .d-flex{
     display: flex;
 }
+.box-top{
+    background: url(/images/song-200x200.jpg);
+}
