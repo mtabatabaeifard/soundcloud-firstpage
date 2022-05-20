@@ -15,5 +15,7 @@
     display: flex;
 }
 .box-top{
+    width: 150px;
+    height: 150px;
     background: url("/images/song-200x200.jpg");
 }
