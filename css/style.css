@@ -1,4 +1,4 @@
-@import "style.css";
+@import "fonts.css";
 /* Resets */
 *{
     padding: 0;
@@ -8,9 +8,18 @@
 html{
     font-size: 10px;
 }
+body{
+    font-family:Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    color:#eee;
+}
 
 .list-reset{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
 }
 /* Utils */
 .container{
@@ -22,4 +31,103 @@ html{
 }
 .fd-column{
     flex-direction: column;
+}
+.button{
+    display: flex;
+    align-items: center;
+    background:#f50;
+    padding: 0.3rem 1.5rem;
+    border: 0.1rem solid #f50;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    width: max-content;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    text-shadow: none;
+}
+
+/* Normal Stuff */
+header{
+    background: #f50 url("/images/landing.jpg") 50% 0.4rem/cover no-repeat;
+    padding-top: 0.4rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-inner{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 6rem;
+    background: rgb(9,86,121);
+    background: linear-gradient(0deg, rgba(9,86,121,0) 0%, rgba(33,33,33,0.5) 86%);
+}
+/* .header-right{
+
+} */
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.signin-button{
+    background:transparent;
+    border-color: #ccc;
+}
+/* .signup-button{
+
+} */
+.creators-button{
+    background: transparent;
+    border-color: transparent;
+}
+/* .header-left{
+
+} */
+.logo-left{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header-middle{
+    flex-grow: 1;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+}
+.hero p {
+    max-width: 50%;
+    font-size: 1.8rem;
+    
+}
+.hero h1{
+    font-size: 3.6rem;
+    font-weight: 100;
+}
+.hero .button{
+    height: 4.6rem;
+    line-height: 4.6rem;
+    min-width: 21rem;
+    font-size: 1.8rem;
+}
+
+footer{
+    border-top: 1px #c7c7c7 solid;
+    width: 98%;
+    color: #c7c7c7;
+    font-size: 1.2rem;
+}
+footer a{
+    color: #c7c7c7;
+}
+footer a:hover{
+    color: #b5b5b5;
 }
