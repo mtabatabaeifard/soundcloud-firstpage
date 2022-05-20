@@ -5,7 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 10px;
+}
 /* Utils */
 .container{
     margin: 0 auto;
@@ -14,8 +16,6 @@
 .d-flex{
     display: flex;
 }
-.box-top{
-    width: 150px;
-    height: 150px;
-    background-image: url("/images/song-200x200.jpg");
+.fd-column{
+    flex-direction: column;
 }
