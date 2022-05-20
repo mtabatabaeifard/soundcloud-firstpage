@@ -1,2 +1,2 @@
-# soundcloud-firstpage
-sound cloud first page design HTML&amp;CSS
+# SoundCloud FistPage Clone
+Cloning soundcloud's first page with HTML&amp;CSS as a practice 
