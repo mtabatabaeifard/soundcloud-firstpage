@@ -1,88 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body class="container">
+  </head>
+  <body class="container">
     <header class="container">
-        <div class="header-inner">
-            <div class="header-left">
-                <div class="logo-left">
-                    <img src="/images/logo.png" alt="Logo">
-                    <img src="/images/logo2.png" alt="Logo">
-                </div>
-            </div>
-            <div class="header-middle"></div>
-            <div class="header-right">
-                <ul class="header-buttons">
-                    <li class="list-reset">
-                        <a href="#" class="signin-button button">Signin</a>
-                    </li>
-                    <li class="list-reset">
-                        <a href="#" class="signup-button button">Create Account</a>
-                    </li>
-                    <li class="list-reset">
-                        <a href="#" class="creators-button button">For Creators</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="header-inner">
+        <div class="header-left">
+          <div class="logo-left">
+            <img src="/images/logo.png" alt="Logo" />
+            <img src="/images/logo2.png" alt="Logo" />
+          </div>
         </div>
-        <div class="hero">
-            <h1>What's next in music is first on SoundCloud</h1>
-            <p>Upload your first track and begin your journey. SoundCloud gives you space to create, find your fans, and connect with other artists. </p>
-            <a href="#" class="button">Start uploading today</a>
+        <div class="header-middle"></div>
+        <div class="header-right">
+          <ul class="header-buttons">
+            <li class="list-reset">
+              <a href="#" class="signin-button button">Signin</a>
+            </li>
+            <li class="list-reset">
+              <a href="#" class="signup-button button">Create Account</a>
+            </li>
+            <li class="list-reset">
+              <a href="#" class="creators-button button">For Creators</a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="hero">
+        <h1>What's next in music is first on SoundCloud</h1>
+        <p>
+          Upload your first track and begin your journey. SoundCloud gives you
+          space to create, find your fans, and connect with other artists.
+        </p>
+        <a href="#" class="button">Start uploading today</a>
+      </div>
     </header>
     <main class="container">
-        <div class="search-song">
-            <div class="search-field"></div>
-            <p>or</p>
-            <div class="upload-button"></div>
+      <div class="search-song d-flex">
+        <div class="search-field d-flex justify-center">
+          <form action="#">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search for artists, bands, tracks, podcasts"
+            />
+          </form>
         </div>
-        <section class="trending">
-            <div class="boxes">
-                <div class="row d-flex">
-                    <div class="box d-flex fd-column">
-                        <span class="box-top">
-                            <span class="box-play"></span>
-                        </span>
-                        <span class="box-bottom">
-                            <a href="#" class="box-link-title">PinkCat | Meow Meow</a>
-                            <a href="#" class="box-link-artist">MeowKhan</a>
-                        </span>
-                    </div>
-                </div>
+        <div class="after-searchbox">
+          <p>or</p>
+          <div class="upload-button">
+            <a class="hero button">Upload your own</a>
+          </div>
+        </div>
+      </div>
+      <section class="trending">
+        <h4>Hear what’s trending for free in the SoundCloud community</h4>
+        <div class="boxes">
+          <div class="row d-flex">
+            <div class="box d-flex fd-column">
+              <span class="box-top">
+                <span class="box-play"></span>
+              </span>
+              <span class="box-bottom">
+                <a href="#" class="box-link-title">PinkCat | Meow Meow</a>
+                <a href="#" class="box-link-artist">MeowKhan</a>
+              </span>
             </div>
-        </section>
-        <section class="creators"></section>
-        <section class="thanks"></section>
+          </div>
+        </div>
+      </section>
+      <section class="creators"></section>
+      <section class="thanks"></section>
     </main>
     <footer class="container">
-        <div class="links">
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-            -
-            <a href="#">Directory</a>
-        </div>
+      <div class="links">
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+        -
+        <a href="#">Directory</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

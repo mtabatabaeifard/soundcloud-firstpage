@@ -10,7 +10,7 @@ html{
 }
 body{
     font-family:Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-    color:#eee;
+    color:#f2f2f2;
 }
 
 .list-reset{
@@ -31,6 +31,9 @@ a{
 }
 .fd-column{
     flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
 }
 .button{
     display: flex;
@@ -130,4 +133,52 @@ footer a{
 }
 footer a:hover{
     color: #b5b5b5;
+}
+
+.search-field form input{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 13rem;
+    background-color: #f2f2f2;
+    background-image: url(/images/search.svg);
+    background-position: 73rem 1.5rem; 
+    background-repeat: no-repeat;
+    outline: none;
+    height: 4.6rem;
+    border-radius: .5rem;
+    width: 75rem;
+    padding-left: 2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border: none;
+    color: #bbbbbb;
+    /* definig searchbox */
+}
+.after-searchbox{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.6rem;
+    color: black;
+    /* defining text & buttons after searchbox */
+}
+.after-searchbox p{
+    margin-left: 2rem;
+}
+.upload-button{
+    height: 4.6rem;
+    line-height: 3.6rem;
+    min-width: 21rem;
+    font-size: 1.8rem;
+}
+/* trending section */
+.trending{
+    color: #000;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2.4rem;
+    font-weight: 100;
 }
